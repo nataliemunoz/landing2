@@ -129,12 +129,54 @@ section p span{
   body section p {
     font-size: 30px;
   }
+
+  body.page-contact h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  body.page-contact ul{
+    margin-top: 20px;
+    border-style: double;
+    border-left: none;
+    border-right: none;
+    text-align: justify;
+}
+  body.page-contact ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  body.page-contact a button{
+    float: right;
+  }
+  
 }
 
 /*CSS tablets*/
 @media only screen and (min-width:600px){
   body{
     background-color:lightpink;
+  }
+  body.page-contact h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  body.page-contact ul{
+    margin-top: 20px;
+    border-style: double;
+    border-left: none;
+    border-right: none;
+    text-align: justify;
+}
+  body.page-contact ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  body.page-contact a button{
+    float: right;
   }
 }
 
@@ -143,21 +185,29 @@ section p span{
   body{
     background-color:skyblue;
   }
+  body.page-contact h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  body.page-contact ul{
+    margin-top: 20px;
+    border-style: double;
+    border-left: none;
+    border-right: none;
+    text-align: justify;
+  }
+  body.page-contact ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  body.page-contact a button{
+    float: right;
+  }
 }
 
-h1{
-  text-align: center;
-  text-decoration: underline;
-}
-ul{
-  margin-top: 20px;
-  border-style: double;
-  border-left: none;
-  border-right: none;
-  text-align: justify;
-}
+/*CSS página Contacto html*/
 
-ul li{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
+
