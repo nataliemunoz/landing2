@@ -15,3 +15,4 @@ var acercade = document.getElementsByClassName("link")[1];
 acercade.addEventListener("click", function() {
   alert("gracias por visitar la página");
 });
+

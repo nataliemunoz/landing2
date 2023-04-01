@@ -144,3 +144,20 @@ section p span{
     background-color:skyblue;
   }
 }
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+ul{
+  margin-top: 20px;
+  border-style: double;
+  border-left: none;
+  border-right: none;
+  text-align: justify;
+}
+
+ul li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
